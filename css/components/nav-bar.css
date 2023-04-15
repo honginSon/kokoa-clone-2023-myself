@@ -20,9 +20,9 @@
 
 .nav__notification {
     background-color: tomato;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
     display: block;
     display: flex;
     justify-content: center;
