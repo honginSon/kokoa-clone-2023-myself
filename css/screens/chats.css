@@ -1,0 +1,25 @@
+.chats-screen {
+    padding: 0px var(--horizontal-space);
+}
+
+.chats-screen .user-component {
+    margin-bottom: 20px;
+}
+
+.chats-screen .user-component__column:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.chat__notification {
+    background-color: tomato;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
