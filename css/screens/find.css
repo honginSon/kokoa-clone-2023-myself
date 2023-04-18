@@ -5,6 +5,7 @@
 .find-menus{
     display: flex;
     justify-content: space-between;
+    margin: 20px 0px;
 }
 
 .find-menus__menu {
@@ -13,6 +14,20 @@
     align-items: center;
 }
 
-.find-menu i {
+.find-menus__menu i {
     margin-bottom: 20px;
+}
+
+.recommend-friends {
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    padding-top: 20px;
+    color: rgba(0,0,0,0.5);
+    font-weight: 500;
+}
+
+.recommend-friends h3 {
+    margin: 105px 0px;
+    text-align: center;
+    font-size: 20px;
 }
