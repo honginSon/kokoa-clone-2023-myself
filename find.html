@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Talk</title>
+    <title>Find - Kokoa Talk</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -24,54 +24,33 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
-        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span
-        ><span><i class="fa-solid fa-music fa-lg"></i></span
-        ><span><i class="fa-solid fa-gear fa-lg"></i></span>
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <a href="#">
+          <i class="fa-solid fa-gear fa-lg"></i>
+          <span class="screen-header__notification"></span>
+        </a>
       </div>
     </header>
 
-    <a id="friends-display-link" href="#">
-      <i class="fa-solid fa-circle-info"></i>
-      Friends' Names Display
-      <i class="fa-solid fa-chevron-right"></i>
-    </a>
-
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar-xl"
-            src="images/Sonny.jpg"
-          />
-          <div class="user-component__text">
-            <h2 class="user-component__name">Sonny</h2>
-            <!-- <h3 class="user-component__subtitle">This text whatever</h3> -->
-          </div>
+    <main id="find-screen">
+      <div class="find-menus">
+        <div class="find-menus__menu">
+          <i class="fa-solid fa-qrcode fa-2x"></i>
+          <span class="find-menu__title">QR Code</span>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <h4>Channel</h4>
-          <i class="fa-solid fa-chevron-up"></i>
+        <div class="find-menus__menu">
+          <i class="fa-regular fa-address-book fa-2x"></i>
+          <span class="find-menu__title">Add by Contacts</span>
         </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__avatar user-component__avatar-sm"
-              src="images/Sonny.jpg"
-            />
-            <div class="user-component__text">
-              <h2 class="user-component__name">Sonny</h2>
-              <!-- <h3 class="user-component__subtitle">This text whatever</h3> -->
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span>2</span>
-            <i class="fa-solid fa-chevron-right"></i>
-          </div>
+        <div class="find-menus__menu">
+          <i class="fa-solid fa-fingerprint fa-2x"></i>
+          <span class="find-menu__title">Add by ID</span>
+        </div>
+        <div class="find-menus__menu">
+          <i class="fa-regular fa-envelope fa-2x"></i>
+          <span class="find-menu__title">Invite</span>
         </div>
       </div>
     </main>
