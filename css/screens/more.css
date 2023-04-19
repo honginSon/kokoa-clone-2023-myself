@@ -1,0 +1,12 @@
+#more-screen {
+    padding: 0px var(--horizontal-space);
+}
+
+#more-screen .user-component__subtitle i{
+    margin-left: 5px;
+    color: tomato;
+}
+
+#more-screen .user-component__column:last-child{
+    color: black;
+}
