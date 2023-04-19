@@ -2,22 +2,6 @@
     padding: 0px var(--horizontal-space);
 }
 
-.find-menus{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0px;
-}
-
-.find-menus__menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.find-menus__menu i {
-    margin-bottom: 20px;
-}
-
 .recommend-friends {
     border-top: var(--main-border);
     border-bottom: var(--main-border);

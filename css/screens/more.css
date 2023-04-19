@@ -10,3 +10,7 @@
 #more-screen .user-component__column:last-child{
     color: black;
 }
+
+#more-screen .row-icons {
+    border-bottom: var(--main-border);
+}
