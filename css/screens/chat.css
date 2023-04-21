@@ -1,6 +1,5 @@
 #chat-screen{
     background-color: #ABC1D1;
-    height: 11000vh;
 }
 
 #chat-screen .status-bar,
@@ -33,7 +32,15 @@
     margin-left: 15px;
 }
 
+#main-chat {
+    display: flex;
+    justify-content: center;
+}
+
 .chat__date{
     margin-top: 120px;
-    
+    color: white;
+    background-color: #92a4b2;
+    padding: 8px 15px;
+    border-radius: 15px;
 }
