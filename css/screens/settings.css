@@ -1,28 +1,6 @@
 #settings-screen{
     padding: 0px var(--horizontal-space);
 }
-#settings-header {
-    margin-top: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#settings-header span{
-    width: 33%;
-    font-size: 25px;
-}
-
-#settings-header span:nth-child(2) {
-    display: flex;
-    justify-content: center;
-    font-weight: 600;
-}
-
-#settings-header span:last-child {
-    display: flex;
-    justify-content: flex-end;
-}
 
 #top-settings{
     border-bottom: var(--main-border);
