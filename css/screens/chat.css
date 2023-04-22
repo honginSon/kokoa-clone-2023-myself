@@ -34,13 +34,54 @@
 
 #main-chat {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    padding: 0px var(--horizontal-space);
 }
 
 .chat__date{
-    margin-top: 120px;
     color: white;
     background-color: #92a4b2;
     padding: 8px 15px;
     border-radius: 15px;
+}
+
+.message-row {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.message-row img{
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.message__name {
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.message__info {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 8px;
+}
+
+.message__bubble {
+    padding: 12px;
+    background-color: white;
+    border-radius: 13px;
+    border-top-left-radius: 0px;
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.message__time{
+    font-size: 14px;
+    opacity: 0.7;
 }
