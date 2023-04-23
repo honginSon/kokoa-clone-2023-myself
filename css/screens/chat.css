@@ -101,3 +101,55 @@
     margin-right: 0px;
     margin-left: 7px;
 }
+
+.reply{
+    position: fixed;
+    bottom:0px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+    box-sizing: border-box;
+}
+
+.reply__column > i{
+    opacity: 0.5;
+}
+
+.reply__column:first-child {
+    width: 10%;
+}
+
+.reply__column:last-child {
+    width: 90%;
+    position: relative;
+}
+
+.reply__column:last-child input {
+    width: 100%;
+    padding: 10px 7px;
+    border: var(--main-border);
+    border-radius: 15px;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+    position: absolute;
+    right: -10px;
+    top: 3px;
+}
+
+.reply__column:last-child > i {
+    right: 35px;
+    top: 18px;
+}
+
+.reply__column:last-child button {
+    background-color: var(--yellow);
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
