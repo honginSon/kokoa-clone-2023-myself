@@ -1,10 +1,25 @@
-#settings-screen{
+#setting-screen{
     padding: 0px var(--horizontal-space);
+    z-index: 0;
+}
+
+#settings-screen .status-bar{
+    z-index: 2;
+}
+
+#settings-screen .alt-header{
+    z-index: 1;
+}
+
+#settings-screen .status-bar,
+#settings-screen .alt-header {
+    background-color: white;
 }
 
 #top-settings{
     border-bottom: var(--main-border);
     padding: 20px 0px;
+    margin-top: 70px;
 }
 
 #bottom-settings{

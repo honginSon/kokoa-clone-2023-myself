@@ -30,23 +30,32 @@
     top: -5px;
 }
 
-
 .alt-header {
+    position: fixed;
+    top: 0;
     padding: 40px var(--horizontal-space);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 26px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .alt-header__title {
     font-weight: 600;
 }
 
-.alt-header__column:first-child {
-    margin-right: auto;
+.alt-header__column {
+    width: 33%;
+}
+
+.alt-header__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
 }
 
 .alt-header__column:last-child {
-    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
 }
